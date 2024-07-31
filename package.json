@@ -9,8 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "next": "14.2.5",
+    "nodemon": "^3.1.4",
+    "prompt-sync": "^4.2.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
-  }
+    "react-native-uuid": "^2.0.2"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kryger019/aulanext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kryger019/aulanext/issues"
+  },
+  "homepage": "https://github.com/Kryger019/aulanext#readme"
 }
