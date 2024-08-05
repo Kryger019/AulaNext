@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
         <div className={styles.containerTitulo}>
-          <h1 className={styles.txtTitulo}>𝔸𝕦𝕝𝕒 ℕ𝕖𝕩𝕥🌸</h1>
+          <h1 className={styles.txtTitulo}>𝕊𝕠𝕓𝕣𝕖🦇</h1>
     </div>
   </div>
   );
