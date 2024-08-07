@@ -129,34 +129,63 @@ table {
 	}
 
 	body {
-			font-family: "Roboto Slab", sans-serif;
+			font-family: "Roboto", sans-serif;
 			font-weight: 500;
 			font-style: normal;
 			display: flex;
-			flex-direction: column;
 			align-items: center;
+			justify-content: center;
 			/* margin: 2rem; */
 			font-size: 1.6rem;
 
 	}
 
-	.container {
+	.containerGlobal {
 		/* border: 0.5rem solid #f00; */
 		display: flex;
 		flex-direction: column; 
-		align-items: center;
-		width: 100%;
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+		width: 98%;
 		max-width: 124rem;
+		font-weight: 500;
+		
+		
 	}
 	
 	a { 
 		text-decoration: none;
 
 	}
+
 	h1 { 
 		font-size: 2.4rem;
-		font-weight: bold;
 		margin: 1rem;
 	}
+
+	h2 {
+		font-size: 2.8rem;
+		margin: 0.6rem;
+	}
+
+	h3 {
+		font-size: 1.6rem;
+		margin: 0.3rem;
+		font-weight: bold;
+	}
+
+	@media screen and (max-width: 960px){
+		html{
+			font-size: 50%;
+		}
+	}
+
+	@media screen and (max-width: 600px){
+		html {
+			font-size: 37.2%;
+		}	
+	}
+		
+	
 
 	/* CSS SITE */
