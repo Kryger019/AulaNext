@@ -4,7 +4,7 @@ import "./globals.css";
 
 //const inter = Inter({ subsets: ["latin"] });
 
-import cabecalho from "@/componentes/cabecalho";
+import Cabecalho from "@/componentes/cabecalho";
 import Rodape from "@/componentes/rodape";
 
 export const metadata = {
@@ -16,12 +16,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       {/* <body className={inter.className}>{children}</body> */}
-      <body>
-        <div className="layout">
-          {/* <Cabecalho/> */}
+      <body suppressHydrationWarning={true}>
+        {/* <div className="layout"> */}
+          <Cabecalho/>
           {children}
           <Rodape />
-        </div>
+        {/* </div> */}
       </body>
     </html>
   );
