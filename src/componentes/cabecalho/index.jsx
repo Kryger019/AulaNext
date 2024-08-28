@@ -26,7 +26,7 @@ function Header() {
       <div className={styles.menu}>
         <div>
           <MdFastfood className={styles.icon} id="logo" />
-          <label id="titulo">BomBurguer</label>
+          <label id="titulo">Angola Man & Ratinho Kryger</label>
         </div>
         <nav className={styles.menuGrande}>
           <Link
